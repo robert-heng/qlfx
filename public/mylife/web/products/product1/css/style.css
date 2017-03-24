@@ -1,0 +1,34 @@
+.top-nav{
+	padding-top: 10px;
+}
+
+.logo{
+	height: 80px;
+	width: 80px;
+	display: inline-block;
+	background-image: url("/mylife/icon/favicon.ico");
+	background-size: contain;
+	border-radius: 50%;
+	margin-left: 20px;
+}
+
+.banner{
+	background-image: url("../images/bannerBg.jpg");
+	height: 800px;
+	background-size: contain;
+}
+
+.nav-list{
+	float: right;
+	color: #fff;
+	font-size: 1.6rem;
+}
+
+.nav-list li{
+	display: inline-block;
+	padding: 10px 20px;
+	line-height: 60px;
+	cursor: pointer;
+}
+
+

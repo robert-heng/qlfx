@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>整屏翻页</title>
+	<link rel="stylesheet" type="text/css" href="../css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="icon" href="../../../icon/favicon.ico">
+</head>
+<body>
+	<section class="container">
+		<section class="nav-top">
+			<div class="logo"></div>
+			<ul class="nav-list">
+			</ul>
+		</section>
+		<section class="page-content" id='page-container'>
+			<div class="page ease" id='page-one'>
+				<div class="linner">
+					asdfasdfa
+				</div>
+				<div class="page-control">
+					<label class="page-next" action='down'>↓</label>
+				</div>
+			</div>
+			<div class="page" id='page-two'>
+				<div class="page-control">
+					<label class="page-prev">↑</label>
+					<label class="page-next">↓</label>
+				</div>
+			</div>
+			<div class="page" id='page-three'>
+				<div class="page-control">
+					<label class="page-prev">↑</label>
+					<label class="page-next" action='down'>↓</label>
+				</div>
+			</div>
+		</section>
+		<section class="page-foot">
+			
+		</section>
+	</section>
+	<script src="js/turn.js"></script>
+</body>
+</html>
